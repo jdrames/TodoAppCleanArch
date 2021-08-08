@@ -1,4 +1,4 @@
-<img align="left" width="116" height="116" src="https://github.com/jdrames/TodoApp/raw/main/.github/icon.png" />
+<img align="left" width="116" height="116" src="https://github.com/jdrames/TodoAppCleanArch/raw/main/.github/icon.png" />
 
 # Todo App Solution
 
