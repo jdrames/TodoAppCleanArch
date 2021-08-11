@@ -1,0 +1,43 @@
+﻿/*!
+ * Custom Themed Bootstrap for ForceMX
+ * Based on Bootstrap v5.1.0 (https://getbootstrap.com/)
+ */
+
+$font-family-sans-serif: system-ui, -apple-system, Roboto, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$blue: #1b5594;
+$indigo: #4e10b3;
+$red: #b02c39;
+$orange: #d46c15;
+$yellow: #e1a82f;
+$cyan: #2992a3;
+
+@import "bootstrap";
+
+/*! Resets for body and html height for sticky footer */
+body,
+html {
+    height: 100%;
+}
+
+// Feature components
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
+
+.bg-featured-blog {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 15rem;
+}
+
+#navbar-login {
+    margin-left: 30px;
+}
