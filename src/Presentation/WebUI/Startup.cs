@@ -46,8 +46,8 @@ namespace WebUI
             // Bundle Service for bundled and minified CSS / JS files
             services.AddWebOptimizer(pipeline =>
             {
-                pipeline.AddScssBundle("/css/bootstrap/bootstrap.css", "lib/cdnjs/bootstrap/scss/custom.scss");
-                pipeline.AddJavaScriptBundle("/js/bootstrap/bootstrap.js", "lib/cdnjs/bootstrap/js/bootstrap.js");
+                pipeline.AddScssBundle("/css/forcemx.css", "lib/bootstrap/scss/ForceMX.scss");
+                pipeline.AddJavaScriptBundle("/js/bootstrap.js", "lib/bootstrap/js/bootstrap.js");                
             });
 
             services.AddRazorPages()
